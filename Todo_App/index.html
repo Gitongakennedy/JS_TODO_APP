@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="app.css" />
+    <title>Todo_App</title>
+  </head>
+  <body>
+    <div class="home-container">
+      <img
+        src="./images/undraw_work_in_progress_re_byic.svg"
+        alt="work-in-progress"
+        class="img"
+      />
+      <div class="grocery-form">
+        <form class="form">
+          <div class="grocery-title">
+            <h2>your tasks</h2>
+            <div class="underline"></div>
+          </div>
+          <p class="alert"></p>
+          <label for="tasks">task</label>
+          <input type="text" id="grocery" placeholder="e.g. milk" />
+          <button type="submit" class="submit-btn">submit</button>
+        </form>
+        <!-- list items -->
+        <div class="tasks-container">
+          <div class="list-container">
+            <!-- item -->
+            <!-- <div class="list-item">
+             
+              </div> -->
+            </div>
+            <!-- item -->
+            <button class="clear-btn">clear items</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
